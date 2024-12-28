@@ -58,7 +58,7 @@ export default function App() {
     gsap.from(".bg-text",{
       y : 100,
       opacity : 0,
-      duration : 2,
+      duration : 4,
       scrollTrigger : {
         trigger : ".bg-text"
       }
@@ -69,7 +69,7 @@ export default function App() {
       y : 100,
       stagger : {
         amount : 2
-      },duration  : 2,
+      },duration  : 3,
       scrollTrigger : {
         trigger : ".article"
       }
@@ -78,7 +78,7 @@ export default function App() {
     gsap.from(".box",{
       opacity : 0,
     stagger : {amount : 1},
-      duration : 2,
+      duration : 3,
       scrollTrigger : {
         trigger : ".box"}
     })
